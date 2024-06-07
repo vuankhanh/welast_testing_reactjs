@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paginationIndex button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.paginationIndex button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.paginationIndex button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.paginationInfo {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.paginationInfo .infoSeparate{
+  padding: 0 10px 0 10px;
+}
